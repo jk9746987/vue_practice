@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import SearchApi from '../views/SearchApi.vue'
 import ClickApi from '../views/ClickApi.vue'
 import Group from '../views/Group.vue'
+import Carousel from '../views/Carousel.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/group',
     name: 'Group',
     component: Group,
+  },
+  {
+    path: '/carousel',
+    name: 'Carousel',
+    component: Carousel,
   }
 ]
 
